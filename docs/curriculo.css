@@ -1,0 +1,19 @@
+.autor {
+    color: blue;
+    border-bottom: dotted 1rem black;
+    font-size: 3em;
+}
+
+.titulo{
+    color: rgb(rgb(57, 133, 120));
+}
+
+.contato {
+    border: solid black;
+    padding: 1rem;
+    text-align: center;
+}
+
+.contato li{
+    text-align: left;
+}
