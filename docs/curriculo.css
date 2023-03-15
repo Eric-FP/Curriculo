@@ -1,14 +1,24 @@
-.autor {
-    color: blue;
-    border-bottom: dotted 1rem black;
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 3rem;
+}
+
+.autor{
+    color: hotpink;
+    /* short hand */
+    border-bottom: dotted 1rem rebeccapurple;
     font-size: 3em;
 }
 
-.titulo{
-    color: rgb(rgb(57, 133, 120));
+.prof{
+    color: rgb(125, 125, 125);
 }
 
-.contato {
+.description{
+    color: #333333;
+}
+
+.contato{
     border: solid black;
     padding: 1rem;
     text-align: center;
@@ -16,4 +26,9 @@
 
 .contato li{
     text-align: left;
+    
+}
+
+.iconnet{
+    font-size: 2rem;
 }
