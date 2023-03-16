@@ -4,9 +4,9 @@ body{
 }
 
 .autor{
-    color: hotpink;
+    color: blue;
     /* short hand */
-    border-bottom: dotted 1rem rebeccapurple;
+    border-bottom: dotted 1rem rgb(0, 0, 0);
     font-size: 3em;
 }
 
@@ -29,6 +29,6 @@ body{
     
 }
 
-.iconnet{
-    font-size: 2rem;
+.bi{
+    font-size: 5srem;
 }
