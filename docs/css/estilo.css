@@ -1,6 +1,5 @@
 body{
-    margin: 5%;
-    margin-top: 2%;
+    margin: 0;
 }
 
 h1 {
@@ -22,13 +21,18 @@ p, ul {
 .container{
     display: flex;
     height: 100%;
+    background-color: #fff;
 }
 
 .menu{
     width: 25%;
     height: 100%;
+    padding-inline: 3%;
     position: fixed;
     overflow-y: auto;
+    background-color: #87CEEB;
+    border-right: solid;
+    color: black;
 }
 
 .menu a{
@@ -42,16 +46,46 @@ p, ul {
 
 .menu a:hover{
     background-color: lightgrey;
+    transition: color 0.5s;
+    color: aquamarine;
 }
 
 .conteudo{
     width: 75%;
     padding-left: 5%;
-    border-left: solid;
+    padding-right: 5%;
     text-align: justify;
-    margin-left: 30%;
+    margin-left: 28%;
 }
 
 .paragrafo {
     padding-left: 3%;
+}
+
+.paragrafo ul{
+    padding-left: 2%;
+}
+
+@media (max-width: 930px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        border-bottom: solid;
+        padding-inline: 5%;
+        box-sizing: border-box;
+    }
+
+    .conteudo {
+        width: 100%;
+        margin-left: 0;
+        padding-inline: 5%;
+        box-sizing: border-box;
+    }
 }
