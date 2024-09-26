@@ -77,7 +77,8 @@ p, ul {
         width: 100%;
         height: auto;
         margin-bottom: 20px;
-        border-bottom: solid;
+        border-bottom: 0.3rem solid black;
+        border-right: none;
         padding-inline: 5%;
         box-sizing: border-box;
     }
